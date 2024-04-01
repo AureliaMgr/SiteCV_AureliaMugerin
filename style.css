@@ -1,0 +1,309 @@
+h1 {
+  color: #ffa64d;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+strong {
+  font-size: 1.3em;
+}
+
+ul {
+  font-size: 1em;
+}
+
+.container-fluid-bandeau {
+  background-image: url(img/fond-blanc-fleurs-oranges.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 350px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.container0 {
+  background-color: #dcdace;
+  align-items: top;
+  display: flex;
+  background-position: top;
+  height: 50px;
+  text-align: top;
+  opacity: 0.7;
+  margin-top: -3.4%;
+}
+
+.column0 {
+  width: 20%;
+  margin-left: 10%;
+  font-family: Lato;
+  font-size: 1.3em;
+  color: #313131;
+  margin-top: 1%;
+}
+
+.bonjour,
+.bienvenue,
+.titre {
+  font-family: Dancing Script;
+  font-size: 3em;
+  color: #5e3d01;
+}
+
+.bonjour {
+  margin-top: 40%;
+  margin-left: 50%;
+}
+
+.bienvenue {
+  margin-left: 60%;
+}
+
+.titre {
+  margin-left: 50%;
+}
+
+.flèches {
+  margin-top: 11%;
+}
+
+.avant,
+.avant² {
+  text-align: right;
+  margin-left: 70%;
+}
+.après {
+  text-align: right;
+}
+
+.avant²,
+.après² {
+  opacity: 0.5;
+}
+
+.introduction {
+  background-color: #dcdace;
+  background-position: center;
+  height: 200px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  text-align: center;
+  align-items: center;
+  color: #313131;
+  font-family: Lato;
+  font-size: 1em;
+  border: 2px solid #dd6a00;
+}
+
+.entête {
+  background-position: center;
+  font-size: 3em;
+  color: #e16a26;
+  font-family: Dancing Script;
+}
+
+.nom {
+  font-family: Lato;
+  color: #5e3d01;
+}
+
+.sommaire_text {
+  text-align: center;
+  font-size: 1.5em;
+  font-family: Lato;
+}
+
+.container-fluid-top {
+  display: flex;
+  background-color: #e8e9e9;
+  padding-left: 5%;
+  align-items: center;
+}
+
+.colimg {
+  width: 50%;
+}
+
+.flyer {
+  height: 476.5px;
+  align-items: right;
+}
+
+.liens {
+  border: 2px solid #ffa64d;
+  border-radius: 15px;
+  text-align: center;
+  width: 10%;
+}
+
+.liens:hover {
+  color: #ffa64d;
+}
+
+.img3 {
+  width: 300px;
+}
+
+.img3:hover {
+  color: black;
+  opacity: 0.5;
+}
+
+.container-fluid-middle {
+  margin-top: 5%;
+  display: flex;
+}
+
+.corps-texte {
+  color: #313131;
+  font-family: Lato;
+}
+
+.column3,
+.column3² {
+  width: 50%;
+}
+
+.column3² {
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.column3 img {
+  height: 500px;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  background: linear-gradient(to bottom, #e8e9e9, white);
+  margin-top: 5%;
+  margin-bottom: 7%;
+  height: 550px;
+  border: 2px;
+  border-color: linear-gradient(to top, #e8e9e9, white);
+}
+
+.column {
+  width: 25%;
+  margin-bottom: 5%;
+  font-size: 1.3em;
+  padding-top: 8%;
+}
+
+.left {
+  text-align: center;
+  padding: 10%;
+  margin-top: 8%;
+}
+
+.right {
+  text-align: center;
+  padding: 10%;
+  margin-top: 8%;
+}
+
+.middleleft {
+  text-align: center;
+}
+
+.middleright {
+  text-align: center;
+}
+
+.softskills {
+  font-family: Dancing Script;
+  font-size: 2.3em;
+}
+
+.all-bottom {
+  background-color: #e8e9e9;
+}
+
+.container-fluid-bottom {
+  display: flex;
+  align-items: center;
+}
+
+.col2,
+.col2² {
+  width: 30%;
+  padding-left: 3%;
+  padding-right: 3%;
+  text-align: center;
+  color: #5e3d01;
+}
+
+.col2 {
+  margin-top: 5%;
+}
+
+.centres,
+.intérêts {
+  text-align: center;
+  padding-top: 5%;
+  font-size: 3em;
+}
+
+.centres {
+  text-align: center;
+  margin-left: 4%;
+  margin-bottom: 7%;
+}
+
+.intérêts {
+  text-align: center;
+  margin-right: 4%;
+  margin-bottom: 7%;
+}
+
+footer {
+  background-position: top;
+  background-color: #dcdace;
+  height: 100px;
+  text-align: center;
+}
+
+.lastcontainer {
+  display: flex;
+}
+
+.lastcol {
+  width: 25%;
+  align-items: center;
+  text-align: center;
+  margin-top: 2%;
+}
+
+i {
+  color: #313131;
+  font-family: Lato;
+  font-size: 25px;
+  margin-left: 10%;
+}
+
+.club {
+  color: #dd6a00;
+}
+.fin {
+  margin-left: 10%;
+  font-family: Lato;
+  color: #313131;
+}
+
+.vie {
+  background-color: #dcdace;
+  font-family: Lato;
+  font-size: 1em;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: justify;
+}
