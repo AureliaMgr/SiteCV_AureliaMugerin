@@ -16,7 +16,7 @@ ul {
 }
 
 .container-fluid-bandeau {
-  background-image: url(fond-blanc-fleurs-oranges.jpg);
+  background-image: url(img/fond-blanc-fleurs-oranges.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -39,7 +39,7 @@ ul {
 
 .column0 {
   width: 20%;
-  margin-left: 10%;
+  margin-left: 7%;
   font-family: Lato;
   font-size: 1.3em;
   color: #313131;
@@ -184,6 +184,8 @@ ul {
   margin-top: 5%;
   margin-bottom: 7%;
   height: 550px;
+  border: 2px;
+  border-color: linear-gradient(to top, #e8e9e9, white);
 }
 
 .column {
@@ -304,4 +306,19 @@ i {
   margin-top: 5%;
   margin-bottom: 5%;
   text-align: justify;
+}
+
+.conteneur {
+  display: grid;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-left: 25%;
+  padding-right: 25%;
+  grid-template-columns: 250px 250px 250px;
+  justify-items: center;
+  gap: 15px;
+}
+
+.port {
+  width: 250px;
 }
